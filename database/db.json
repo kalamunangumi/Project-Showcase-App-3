@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 3,
+      "name": "desktop 1.0",
+      "brand": "apple",
+      "location": "usa"
+    },
+    {
+      "id": 4,
+      "name": "printer 4.0",
+      "brand": "infinix",
+      "location": "south korea"
+    },
+    {
+      "id": 5,
+      "name": "television 6.0",
+      "brand": "xiaomi",
+      "location": "japan"
+    },
+    {
+      "name": "samsung",
+      "brand": "samsung",
+      "location": "kihunguro",
+      "id": 6
+    },
+    {
+      "name": "tecno",
+      "brand": "tecno",
+      "location": "ruiru",
+      "id": 7
+    }
+  ]
+}
