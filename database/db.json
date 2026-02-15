@@ -29,6 +29,30 @@
       "brand": "tecno",
       "location": "ruiru",
       "id": 7
+    },
+    {
+      "name": "ajjsa",
+      "brand": "ajjsa",
+      "location": "ajjsa",
+      "id": 8
+    },
+    {
+      "name": "abc",
+      "brand": "abc",
+      "location": "abc",
+      "id": 9
+    },
+    {
+      "name": "asa",
+      "brand": "asa",
+      "location": "asa",
+      "id": 10
+    },
+    {
+      "name": "asaa",
+      "brand": "asas",
+      "location": "sasa",
+      "id": 11
     }
   ]
 }

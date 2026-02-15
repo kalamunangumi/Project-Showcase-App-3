@@ -9,7 +9,8 @@ export default function AddProductForm () {
     const [location, setLocation] = useState("")
     const nav = useNavigate ();
 
-    function handleSubmit () {
+    function handleSubmit (e) {
+        e.preventDefault();
         fetch('http://localhost:3000/products', {
          method: 'POST',
             body: JSON.stringify({
@@ -23,7 +24,7 @@ export default function AddProductForm () {
         })
         .then((response) => response.json())
         .then(() => {
-            toast.success('Successfully deleted!')
+            toast.success('Successfully submitted')
             nav('/products')
         });
     }
